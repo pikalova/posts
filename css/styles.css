@@ -1,0 +1,45 @@
+body {
+    font-family: 'Roboto Mono', monospace, sans-serif;
+    margin: 10px;
+    position: relative;
+    color: #151d2c;
+}
+ 
+h1{
+    font-family: 'Sansita Swashed', cursive, sans-serif;
+    color: red;
+    text-align: center;
+}
+
+button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #12387e;
+    border: #151d2c 2px;
+    border-radius: 10px;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 12pt;
+
+}
+
+.posts{
+    position: relative;
+}
+
+.post{
+    margin: 15px;
+    padding: 15px;
+    background: #f1ffc0;
+    border: #8cb4ff solid 2px;
+    border-radius: 20px;
+}
+
+#user{
+    margin: 0px 30px;
+    padding: 5px 20px;
+    background: linear-gradient(45deg, #b0c9596c, #f1ffc0);
+    border-radius: 15px;
+
+}
