@@ -9,21 +9,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
     <script defer src="./js/index.js"></script>
-    <title>Posts</title>
+    <script defer src="./js/modal.js"></script>
+    <title>Users</title>
 </head>
 <body>
-    <h1>Постограмм</h1>
     
-    <div class="posts">
-        <div class="post">
-            <div id="user">
-                UserID: 
-            </div>
-            <div id="post">
-                <h3>Post Name:</h3>
-                <p>Post text:</p>
+
+
+    <div id="modal" class="modal bounceIn">
+        <div id="close_modal">+</div>
+        <form class="modal_txt">
+        </form>
+    </div>
+    
+    <h1>Пользователи</h1>
+    
+    <div class="users">
+        <div class="user">  
+            <div hidden id="id"></div>    
+            <div class="info" id="name">Name: </div>
+            <div class="info" id="username">UserName: </div>
+            <div class="info" id="email">Email: </div>
+            <div class="info" id="address">Address: </div>
+            <div class="info" id="phone">Phone: </div>
+            <div class="info" id="website">Website: </div>
+            <div class="info" id="company">Company: </div>
+            <div id="userActions">
+                <button class="edit button">Изменить</button>  
+                <button class="delete button">Удалить</button>         
             </div>
         </div>
     </div>
+    
 </body>
 </html>
